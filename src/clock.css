@@ -1,0 +1,38 @@
+.clock-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f7f7f7, #d7d7d7);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ccc;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock-container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin: 0;
+    color: #f16d7f;
+    text-shadow: 2px 2px #fff;
+    text-align: center;
+    display: block;
+    width: 200px;
+  }
+  
+  .clock-container h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    color: #333;
+    text-align: center;
+    display: block;
+  }
+  
